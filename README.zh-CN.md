@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README.zh-CN.md)
+
 # LeafViewSender
 
 Leaf / Paper 1.21.11 插件：只把玩家**看得到**的东西发给客户端，砍掉纯浪费的下行流量。

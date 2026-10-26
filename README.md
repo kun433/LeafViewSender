@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README.zh-CN.md)
+
 # LeafViewSender
 
 A Leaf / Paper **1.21.11** plugin that only sends what a player can actually see, cutting pointless downstream traffic.
@@ -5,8 +7,6 @@ A Leaf / Paper **1.21.11** plugin that only sends what a player can actually see
 - Version: `1.1.0` (server `1.21.11`)
 - Artifact: `1.21.11/dist/LeafViewSender-1.1.0-1.21.11.jar`
 - Dependencies: none at runtime (no ProtocolLib / PacketEvents — it compiles directly against the server)
-
-> 中文说明见 [README.zh-CN.md](README.zh-CN.md)
 
 ---
 
