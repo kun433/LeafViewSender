@@ -1,0 +1,17 @@
+# build outputs
+1.21.11/build/
+1.21.11/dist/
+tests/out/
+
+# compile-time dependencies (fetch from Maven, see 1.21.11/lib/README.md)
+1.21.11/lib/compile/
+1.21.11/lib/server/
+
+# local caches (downloaded dev bundle, extracted third-party sources)
+.cache/
+
+# IDE / OS noise
+.idea/
+*.iml
+.vscode/
+Thumbs.db

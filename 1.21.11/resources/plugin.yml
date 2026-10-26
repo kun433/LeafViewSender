@@ -1,0 +1,20 @@
+name: LeafViewSender
+version: 1.1.0
+main: com.leafviewsender.LeafViewSenderPlugin
+api-version: '1.21'
+author: LeafViewSender
+description: 只向玩家发送视野内与近身缓冲的地形，并裁掉无意义的下行流量。
+folia-supported: false
+commands:
+  leafviewsender:
+    description: LeafViewSender 管理指令
+    usage: /leafviewsender <reload|status>
+    aliases: [lvw, lvs]
+    permission: leafviewsender.admin
+permissions:
+  leafviewsender.admin:
+    description: 允许使用 LeafViewSender 管理指令
+    default: op
+  leafviewsender.bypass:
+    description: 拥有该权限的玩家不参与区块过滤（始终完整接收地形）
+    default: false
